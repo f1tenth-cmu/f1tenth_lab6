@@ -73,5 +73,5 @@ You'll be rewarded extra credit (10%) for implementing RRT*, or another modified
 - Performance on straight path (simulation video): **15** Points
 - Performance on turn (simulation video): **10** Points
 - Group Video on hardware: **10** Points
-- has RRT running in sim with no waypoint/path visualizations: **-2** for each one missing
-- submitted physical video of RRT with no evidence of obstacle avoidance: **-5**
+- has RRT running in sim with no waypoint/path visualizations: **-2** points for each one missing
+- submitted physical video of RRT with no evidence of obstacle avoidance: **-5** points
