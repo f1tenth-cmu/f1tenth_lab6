@@ -64,12 +64,14 @@ Figure 3
 You'll be rewarded extra credit (10%) for implementing RRT*, or another modified version of RRT (if you do, make a good argument on why it deserves extra credit). On top of the basic version of RRT, RRT* uses a cost function, and rewiring the tree, to find a better path to the goal. When the tree has expanded infinite number of nodes, RRT*'s solution is close to optimal. Figure 3 shows the difference in the tree expanded and path found between RRT and RRT*. The skeleton code provided has sections for functions in RRT* as well.
 
 ## V: Deliverables
-- **Deliverable 1**: As usual, zip your code package and add it to canvas. Your code should run smoothly in simulation.
-- **Deliverable 2**: Include a video to your RRT algorithm running. A visualization in RVIZ is required.
-- **Deliverable 3**: (As a group) Also include a video of the car running RRT in AIMS hallway.
+- **Deliverable 1**: As usual, zip your code package and add it to canvas. 
+- **Deliverable 2**: Include a video to your RRT algorithm running in sim. Include at least a visualization of the paths found by your RRt algorithm and the goalpoint at each timestep.
+- **Deliverable 3**: (As a group) Also include a video of the car running RRT in AIMS hallway and at least one obstacle to demonstrate obstacle avoidance
 
 ## VI: Grading Rubric
 - Compilation: **10** Points
 - Performance on straight path (simulation video): **15** Points
 - Performance on turn (simulation video): **10** Points
 - Group Video on hardware: **10** Points
+- has RRT running in sim with no waypoint/path visualizations: **-2** for each one missing
+- submitted physical video of RRT with no evidence of obstacle avoidance: **-5**
