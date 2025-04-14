@@ -70,8 +70,10 @@ You'll be rewarded extra credit (10%) for implementing RRT*, or another modified
 
 ## VI: Grading Rubric
 - Compilation: **10** Points
-- Performance on straight path (simulation video): **15** Points
-- Performance on turn (simulation video): **10** Points
+- Shows the car going along a straight path in sim: **15** Points
+- Shows the car turning in sim: **10** Points
 - Group Video on hardware: **10** Points
 - has RRT running in sim with no waypoint/path visualizations: **-2** points for each one missing
 - submitted physical video of RRT with no evidence of obstacle avoidance: **-5** points
+- RRT runs in sim but crashes into wall before turning: **-10** points
+- RRT runs in sim and crashes during/after a turn: **-5** points 
