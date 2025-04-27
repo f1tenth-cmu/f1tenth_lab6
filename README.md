@@ -65,7 +65,7 @@ You'll be rewarded extra credit (10%) for implementing RRT*, or another modified
 
 ## V: Deliverables
 - **Deliverable 1**: As usual, zip your code package and add it to canvas. 
-- **Deliverable 2**: Include a video to your RRT algorithm running in sim. Include at least a visualization of the paths found by your RRt algorithm and the goalpoint at each timestep.
+- **Deliverable 2**: Include a video to your RRT algorithm running in sim. Include (1) at least one obstacle to demonstrate obstacle avoidance and (2) a visualization of the paths found by your RRt algorithm and the goalpoint at each timestep. 
 - **Deliverable 3**: (As a group) Also include a video of the car running RRT in AIMS hallway and at least one obstacle to demonstrate obstacle avoidance
 
 ## VI: Grading Rubric
@@ -74,6 +74,7 @@ You'll be rewarded extra credit (10%) for implementing RRT*, or another modified
 - Shows the car turning in sim: **10** Points
 - Group Video on hardware: **10** Points
 - has RRT running in sim with no waypoint/path visualizations: **-2** points for each one missing
+- submitted sim video of RRT with no evidence of obstacle avoidance: **-5** points
 - submitted physical video of RRT with no evidence of obstacle avoidance: **-5** points
 - RRT runs in sim but crashes into wall before turning: **-10** points
 - RRT runs in sim and crashes during/after a turn: **-5** points 
